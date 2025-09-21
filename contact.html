@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio | Contact</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <header>
+    <h1>Contact Me</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- <h2>Contact Me</h2>
+    <form id="contactForm">
+      <label>
+        Name: <input type="text" id="name" />
+      </label><br />
+      <label>
+        Email: <input type="text" id="email" />
+      </label><br />
+      <label>
+        Message:<br />
+        <textarea id="message"></textarea>
+      </label><br />
+      <button type="submit">Send</button>
+    </form> -->
+     <section class="contact-section">
+      <!-- Contact Form -->
+      <div class="contact-container">
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+          <label for="name">Name</label>
+          <input type="text" id="name" placeholder="Enter your name" />
+
+          <label for="email">Email</label>
+          <input type="email" id="email" placeholder="Enter your email" />
+
+          <label for="message">Message</label>
+          <textarea id="message" rows="5" placeholder="Write your message"></textarea>
+
+          <button type="submit" class="btn-submit">Send Message</button>
+          <div class="message" id="formMessage"></div>
+        </form>
+      </div>
+
+      <!-- Image -->
+      <div class="contact-image">
+        <img src="images/Copy of Florence Audacious Narrative MWA29.jpg" alt="Get in touch" height="600"/>
+      </div>
+    </section>
+  </main>
+
+   <!-- Shared Footer -->
+  <footer>
+     <p>&copy; 2025 Florence Nyaoke | My Portfolio. All Rights Reserved.</p>
+  </footer>
+
+  <script src="js/script.js"></script>
+</body>
+</html>

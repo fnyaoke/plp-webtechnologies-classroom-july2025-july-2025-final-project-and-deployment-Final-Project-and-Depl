@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio | Gallery</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+      padding: 20px;
+    }
+    .gallery-grid img {
+      width: 100%;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+    .gallery-grid img:hover {
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>My Gallery</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="gallery.html" class="active">Gallery</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Gallery</h2>
+    <p style="text-align:center; max-width:600px; margin:auto;">
+      A glimpse into my journey of leadership, community building, 
+      and movement work — through conferences, campaigns, and moments of solidarity.
+    </p>
+
+    <div class="gallery-grid">
+      <img src="images/Press Conference 5 (1).PNG" alt="Leadership Conference" />
+      <img src="images/ICJ image.JPG" alt="Interconnected Justice Kenyans" />
+      <img src="images/CAC.jpeg" alt="Cosmopolitan Affirming Community gathering" />
+    </div>
+  </main>
+
+  <!-- Shared Footer -->
+  <footer>
+     <p>&copy; 2025 Florence Nyaoke | My Portfolio. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
